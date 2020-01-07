@@ -19,7 +19,7 @@ function drawChart() {
         .range([ 0, width ]);
     
     var y = d3.scaleLinear()
-        .domain([-0.6, 1])
+        .domain([1, -0.6])
         .range([ 0, height ]);
 
     var size = d3.scaleLinear()
