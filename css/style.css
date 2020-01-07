@@ -6,3 +6,12 @@
     pointer-events: none;
     background-color: white;
 }
+
+circle.dot {
+    stroke: black;
+    stroke-width: 0px;
+}
+
+circle.dot:hover {
+    stroke-width: 2px;
+}

@@ -59,6 +59,7 @@ function drawChart() {
         .data(data)
         .enter()
         .append('circle')
+        .attr('class','dot')
         .attr('cx',function(d) {return x(d.x) })
         .attr('cy',function(d) {return y(d.y) })
         .attr('r',function(d) {
